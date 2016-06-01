@@ -73,7 +73,7 @@
             to_date: new Date().toISOString().slice(0, -14)
           })
           .map(function(user) {
-            var properties = {};
+            var properties = {"---Total Profiles ---" : 1};
              _.each(user.properties, function(v,k) {
              properties[k] = 1;
             });
